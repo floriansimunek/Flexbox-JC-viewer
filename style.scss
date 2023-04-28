@@ -1,0 +1,57 @@
+/* RESET */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* FLEX */
+.flex {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	width: 100%;
+	background: red;
+	margin-bottom: 10px;
+
+	.child {
+		width: 250px;
+		height: 75%;
+		background: blue;
+		margin: 0 5px;
+	}
+}
+
+/* JUSTIFY-CONTENT : VALUES */
+.stretch {
+	justify-content: stretch;
+
+	.child {
+		flex-grow: 1;
+	}
+}
+
+.flex-start {
+	justify-content: flex-start;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.center {
+	justify-content: center;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.space-around {
+	justify-content: space-around;
+}
+
+.space-evenly {
+	justify-content: space-evenly;
+}
